@@ -12466,8 +12466,8 @@
       "cpe": "cpe:/a:php:php",
       "description": "PHP is a general-purpose scripting language used for web development.",
       "headers": {
-        "Server": "php/?([\\d.]+)?\\;version:\\1",
-        "X-Powered-By": "^php/?([\\d.]+)?\\;version:\\1"
+        "Server": "(?i)php/?([\\d.]+)?\\;version:\\1",
+        "X-Powered-By": "^(?i)php/?([\\d.]+)?\\;version:\\1"
       },
       "icon": "PHP.svg",
       "url": "\\.php(?:$|\\?)",
